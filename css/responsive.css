@@ -1,0 +1,66 @@
+@media(max-width:991px) {
+    .service-section .service-item,
+    .portfolios-section .portfolios-item {
+        flex: 0 0 33.33%;
+        max-width: 50%;
+    }
+    /* .header .hamburger-btn {
+        margin-right: 100px;
+    } */
+}
+
+@media(max-width:767px) {
+    .contact-section .w-50,
+    .contact-section .contact-item,
+    .service-section .service-item,
+    .portfolios-section .portfolios-item,
+    .portfolios-popup .description,
+    .about-section .skills .skill-item,
+    .about-section .home-text,
+    .about-section .about-img,
+    .about-section .about-info,
+    .about-section .social-links,
+    .home-section .about-img,
+    .home-section .home-text,
+    .home-section .home-img {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    /* .header .hamburger-btn {
+        margin-right: 200px;
+    } */
+    .home-section .home-text {
+        order: 2;
+    }
+    .home-section .home-text {
+        text-align: center;
+    }
+    .home-section .full-screen {
+        padding: 100px 0;
+        min-height: auto !important;
+    }
+    .home-section .home-img .img-box {
+        margin-bottom: 40px;
+        max-width: 350px;
+    }
+    .about-section .social-links {
+        padding-bottom: 20px;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd) {
+        padding-right: 15px;
+        text-align: right;
+    }
+    .about-section .timeline .timeline-item:nth-child(even) {
+        text-align: left;
+        padding-left: 15px;
+    }
+}
+
+@media(max-width:574px) {
+    .home-section .home-img .img-box {
+        max-width: 260px;
+    }
+    .home-section .home-text h2 {
+        font-size: 40px;
+    }
+}
